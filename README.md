@@ -8,6 +8,7 @@ I looked for a Python API module, and I couldn't find one, so I decided to make
 one myself.
 
 Current functionality:
+
     * Initial authentication is mostly functional.
     CAVET: As a desktop application, not a webservice.
     What does this mean?
@@ -17,6 +18,7 @@ Current functionality:
     website, and everything is automatic.
 
 To do:
+
     * Figure out how to authenticate again, after the initial auth.
     Will I need to go through the whole process again, or will the token
     received be permanent?
@@ -27,4 +29,5 @@ To do:
 
 Requirements:
 (See requirements.txt for more details. Produced with pip freeze.)
+
     * oauth
